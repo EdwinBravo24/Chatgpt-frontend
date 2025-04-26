@@ -40,7 +40,7 @@ const ChatPrompt = () => {
       setConversations(newConversations)
       setPrompt('') // Limpiar el input inmediatamente para mejor UX
 
-      const res = await axios.post('http://localhost:5000/api/chat', { prompt })
+      const res = await axios.post('https://chatgpt-backend-six.vercel.app/api/chat', { prompt })
 
       // Agregar la respuesta de la IA a las conversaciones
       setConversations([
@@ -100,10 +100,10 @@ const ChatPrompt = () => {
               >
                 <div
                   className={`max-w-[85%] p-3 rounded-2xl shadow-md ${message.role === 'user'
-                      ? 'bg-gradient-to-br from-purple-600 to-purple-700 text-white rounded-tr-none'
-                      : message.role === 'system'
-                        ? 'bg-red-100 text-red-700 border border-red-200'
-                        : 'bg-white text-gray-800 border border-purple-100 rounded-tl-none shadow-md'
+                    ? 'bg-gradient-to-br from-purple-600 to-purple-700 text-white rounded-tr-none'
+                    : message.role === 'system'
+                      ? 'bg-red-100 text-red-700 border border-red-200'
+                      : 'bg-white text-gray-800 border border-purple-100 rounded-tl-none shadow-md'
                     }`}
                 >
                   <div className="flex items-center mb-1 font-medium">
