@@ -13,7 +13,7 @@ function SalonInfo() {
     "EC-2.2": "https://noutube-aplicaciones-moviles.s3.us-east-2.amazonaws.com/EC-3.5.jpg",
     "EC-2.3": "https://noutube-aplicaciones-moviles.s3.us-east-2.amazonaws.com/EC-+3.3.jpg",
     "EC-2.4": "https://noutube-aplicaciones-moviles.s3.us-east-2.amazonaws.com/EC-3.5.jpg",
-    "EC-3.1": "https://noutube-aplicaciones-moviles.s3.us-east-2.amazonaws.com/EC-3.3.jpg",
+    "EC-3.1": "https://noutube-aplicaciones-moviles.s3.us-east-2.amazonaws.com/EC-+3.3.jpg",
     "EC-3.2": "https://www.yarquitectura.com/wp-content/uploads/2023/06/auditorios-arquitectura.jpg",
     "EC-3.3": "https://noutube-aplicaciones-moviles.s3.us-east-2.amazonaws.com/EC-+3.3.jpg",
     "EC-3.5": "https://noutube-aplicaciones-moviles.s3.us-east-2.amazonaws.com/EC-3.5.jpg",
