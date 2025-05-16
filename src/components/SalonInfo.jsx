@@ -23,7 +23,7 @@ function SalonInfo() {
   useEffect(() => {
     const fetchRoomData = async () => {
       try {
-        const response = await axios.get(`/api/auditoriums/code/${roomId}`);
+        const response = await axios.get(`https://chatgpt-backend-tan.vercel.app/api/auditoriums/code/${roomId}`);
         setRoomData(response.data);
       } catch (err) {
         setError('Error al cargar los datos del salón');

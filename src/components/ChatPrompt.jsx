@@ -31,7 +31,7 @@ const ChatPrompt = () => {
       setConversations(prev => [...prev, { role: 'user', content: prompt }]);
       setPrompt('');
 
-      const res = await axios.post('/api/chat', { prompt });
+      const res = await axios.post('https://chatgpt-backend-tan.vercel.app/api/chat', { prompt });
 
       setConversations(prev => [...prev, {
         role: 'assistant',
