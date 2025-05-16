@@ -9,7 +9,7 @@ function SalonInfo() {
   const [error, setError] = useState(null);
 
   const roomImages = {
-    "EC-2.1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvaityRWgRGwStKGvzI1HA6LNkm2BUWVdnGg&s",
+    "EC-2.1": "https://highlights.com.co/wp-content/uploads/2021/03/highlights-iluminacion-espacios-interior-auditorios-galeria1-6.jpeg",
     "EC-2.2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvaityRWgRGwStKGvzI1HA6LNkm2BUWVdnGg&s",
     "EC-2.3": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvaityRWgRGwStKGvzI1HA6LNkm2BUWVdnGg&s",
     "EC-2.4": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvaityRWgRGwStKGvzI1HA6LNkm2BUWVdnGg&s",
