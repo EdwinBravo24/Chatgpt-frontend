@@ -9,15 +9,15 @@ function SalonInfo() {
   const [error, setError] = useState(null);
 
   const roomImages = {
-    "EC-2.1": "https://highlights.com.co/wp-content/uploads/2021/03/highlights-iluminacion-espacios-interior-auditorios-galeria1-6.jpeg",
-    "EC-2.2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvaityRWgRGwStKGvzI1HA6LNkm2BUWVdnGg&s",
-    "EC-2.3": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvaityRWgRGwStKGvzI1HA6LNkm2BUWVdnGg&s",
-    "EC-2.4": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvaityRWgRGwStKGvzI1HA6LNkm2BUWVdnGg&s",
-    "EC-3.1": "https://res.cloudinary.com/liaison-inc/image/upload/c_fit,f_auto,q_auto,w_1200/services/fash/backgrounds/hair-salon.jpg",
-    "EC-3.2": "https://res.cloudinary.com/liaison-inc/image/upload/c_fit,f_auto,q_auto,w_1200/services/fash/backgrounds/hair-salon.jpg",
+    "EC-2.1": "https://www.yarquitectura.com/wp-content/uploads/2023/06/auditorios-arquitectura.jpg",
+    "EC-2.2": "https://noutube-aplicaciones-moviles.s3.us-east-2.amazonaws.com/EC-3.5.jpg",
+    "EC-2.3": "https://noutube-aplicaciones-moviles.s3.us-east-2.amazonaws.com/EC-+3.3.jpg",
+    "EC-2.4": "https://noutube-aplicaciones-moviles.s3.us-east-2.amazonaws.com/EC-3.5.jpg",
+    "EC-3.1": "https://noutube-aplicaciones-moviles.s3.us-east-2.amazonaws.com/EC-3.3.jpg",
+    "EC-3.2": "https://www.yarquitectura.com/wp-content/uploads/2023/06/auditorios-arquitectura.jpg",
     "EC-3.3": "https://noutube-aplicaciones-moviles.s3.us-east-2.amazonaws.com/EC-+3.3.jpg",
     "EC-3.5": "https://noutube-aplicaciones-moviles.s3.us-east-2.amazonaws.com/EC-3.5.jpg",
-    "EC-A1-A2": "https://res.cloudinary.com/liaison-inc/image/upload/c_fit,f_auto,q_auto,w_1200/services/fash/backgrounds/hair-salon.jpg"
+    "EC-A1-A2": "https://www.yarquitectura.com/wp-content/uploads/2023/06/auditorios-arquitectura.jpg"
   };
 
   useEffect(() => {
